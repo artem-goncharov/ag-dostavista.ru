@@ -1,0 +1,206 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Вёрстка страницы</title>
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		html, body {
+			width: 100%;
+			height: 100%;
+		}
+		p {
+			color: #424242;
+		}
+		a {
+			color: #CE6DAA;
+		}
+		div#wrapper{
+			width: 73%;
+			min-width: 600px;
+			margin: 12px auto;
+			box-shadow: 0 0 2px 3px #B3B3B3;
+			font-family: Arial, sans-serif;
+			font-size: 100%;
+			overflow: auto;
+		}
+		div#header>div#img {
+			background: url(images/background.png);
+			padding-top: 15.65%;
+			background-size: cover;
+			-moz-background-size: cover;
+			background-position: center;
+		}
+		div#cont{
+			padding: 16px;
+			background-color: #F8F5ED;
+			font-size: 100%;
+			text-align: center;
+		}
+		div#descr, div#footer{
+			padding: 1%;
+		}
+		div#descr>div.des {
+			padding-bottom: 2%;
+			border-bottom: 1px solid #EEEEEE;
+			overflow: auto;
+			margin: 2%;
+		}
+		div#descr>div.des>h2 {
+			text-align: center;
+		}
+		div#descr>div.des>div.left {
+			font-weight: bold;
+			margin-right: 5%;
+			width: 27%;
+			float: left;
+		}
+		div#descr>div.des>div.right {
+			overflow: hidden;
+		}
+		div#descr>div.des>div#height {
+			height: 2em;
+			clear:both;
+		}
+		div#footer>div#how {
+			text-align: center;
+			padding-bottom: 2%;
+		}
+		div#footer>div#butt{
+			position: relative;
+			height: 84px;
+		}
+		div#footer>div#butt>div.but {
+			position: absolute;
+			z-index: 2;
+			float: left;
+		}
+		div#footer>div#butt>div#but1 {
+			background: url(images/in-description-checkbox.png);
+			margin-left: 8%;
+			width: 84px;
+			height: 84px;
+		}
+		div#footer>div#butt>div#but2 {
+			background: url(images/in-description-compass.png);
+			margin-left: 32%;
+			width: 84px;
+			height: 84px;
+		}
+		div#footer>div#butt>div#but3 {
+			background: url(images/in-description-like.png);
+			margin-left: 56%;
+			width: 84px;
+			height: 84px;
+		}
+		div#footer>div#butt>div#but4 {
+			background: url(images/in-description-mail.png);
+			margin-left: 79%;
+			width: 84px;
+			height: 84px;
+		}
+		div#footer>div#butt>div.arr {
+			background: url(images/in-description-arrow.png);
+			width: 40px;
+			height: 84px;
+			position: absolute;
+			z-index: 1;
+			float: left;
+		}
+		div#footer>div#butt>div#arr1 {
+			margin-left: 23%;
+		}
+		div#footer>div#butt>div#arr2 {
+			margin-left: 47%;
+		}
+		div#footer>div#butt>div#arr3 {
+			margin-left: 71%;
+		}
+		div#footer>div#info {
+			font-size: 90%;
+			margin: 0 auto;
+			padding: 2%;
+			clear: both;
+			overflow: auto;
+		}
+		div#footer>div#info>div.inf {
+			float: left;
+			width: 20%;
+		/*	margin: 0 2%;*/
+		}
+		div#footer>div#info>div#inf1 {
+			margin-left: 2%;
+		}
+		div#footer>div#info>div#inf2 {
+			margin-left: 5%;
+		}
+		div#footer>div#info>div#inf3 {
+			margin-left: 5%;
+		}
+		div#footer>div#info>div#inf4 {
+			margin-left: 5%;
+		}
+		div#finish {
+			height: 15px;
+		}
+	</style>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<div id="img"></div>
+		</div>
+		<div id="cont">
+			<p>Закажите пробную доставку <a href="#"><strong>через форму на сайте</strong></a> или по телефону: <strong>+7 495 215-11-69</strong></p>
+		</div>
+		<div id="descr">
+			<div class="des"><h2>Почему Достависта?</h2></div>
+			<div class="des">
+				<div class="left"><p>Клиент требует доставить срочно?</p></div>
+				<div class="right"><p>Мы доставляем за 2-3 часа по Москве. Или когда будет удобно.</p></div>
+			</div>
+			<div class="des">
+				<div class="left"><p>Заболел свой курьер?</p></div>
+				<div class="right"><p>Все курьеры уже заняты и некому доставить новый заказ? В Достависте Вы всегда сможете заказать курьера на замену. В течение 1-2 часов курьер будет у Вас. В любое время суток. Без бюроркатии и выматывающих звонков диспетчеру. Просто заполните <a href="#">форму заказа</a>!</p></div>
+			</div>
+			<div class="des">
+				<div class="left"><p>Заказов не так много, чтобы держать курьера на зарплате?</p></div>
+				<div class="right"><p>Мы поможем сэкономить! Нам неважно сколько заказов вы делаете — раз в год или 1000 заказов — в месяц. Условия неизменны. Вы важны для нас независимо от количества заказов.</p></div>
+			</div>
+			<div class="des">
+				<div class="left"><p>Хотите протестировать новую рыночную нишу без лишних затрат и бюрократии?</p></div>
+				<div class="right"><p>Это проще, чем вы подумали! Просто покажите нам поставщиков, а наш курьер выкупит у них товар за свои собственные деньги и получит деньги с покупателя. Таким образом, вы просто создаете витрину и оформляете покупку, а мы делаем все остальное.</p></div>
+			</div>
+			<div class="des">
+				<div class="left"><p>Хотите иметь конкурентное преимущество, предлагая доставку день в день?</p></div>
+				<div class="right"><p>Кризис — возможность сделать рывок, пока Ваши конкуренты оглушены новыми вызовами рынка. А Вы уже сегодня доставляете заказы день в день. По нашей статистике клиент, получивший желанную покупку через пару часов в 6 раз чаще говорит об этом друзьям и знакомым.</p></div>
+				<div id="height"></div>
+			</div>
+		</div>
+		<div id="footer">
+			<div id="how">
+				<h2>Как мы работаем</h2>
+			</div>
+			<div id="butt">
+				<div class="but" id="but1"></div>
+				<div class="but" id="but2"></div>
+				<div class="but" id="but3"></div>
+				<div class="but" id="but4"></div>
+				<div class="arr" id="arr1"></div>
+				<div class="arr" id="arr2"></div>
+				<div class="arr" id="arr3"></div>
+			</div>
+			<div id="info">
+				<div id="inf1" class="inf"><p>Заказ принимается через онлайн-форму заказа круглосуточно 24/7 или по телефону. Обычно курьер назначается и выезжает к вам в течение 10 минут после получения заявки.</p></div>
+				<div id="inf2" class="inf"><p>Вы можете в реальном времени видеть местонахождение курьера в своем личном кабинете. А также можете добавить или удалить адреса из заказа в процессе его выполнения.</p></div>
+				<div id="inf3" class="inf"><p>Получателям на каждом из адресов приходит смс с телефоном курьера, а Вам — смс о прохождении курьером каждого адреса.</p></div>
+				<div id="inf4" class="inf"><p>После завершения заказа Вы можете оценить курьера.</p></div>
+			</div>
+		</div>
+		<div id="finish"></div>
+	</div>
+</body>
+</html>
